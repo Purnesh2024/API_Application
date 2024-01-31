@@ -1,8 +1,12 @@
-﻿namespace API_Application.Models
+﻿using API_Application.Application.DTOs;
+
+namespace API_Application.Models
+
 {
     public class User
     {
-        public Guid UserId { get; set; }
+        public int UserId { get; set; }
+        public Guid UserUuid { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? Email { get; set; }

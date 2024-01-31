@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Causeway CBDS\\Assignment\\C#\\API_Application\\API_Application.csproj": {}
+    "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API_Application.csproj": {}
   },
   "projects": {
-    "D:\\Causeway CBDS\\Assignment\\C#\\API_Application\\API_Application.csproj": {
+    "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API_Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Causeway CBDS\\Assignment\\C#\\API_Application\\API_Application.csproj",
+        "projectUniqueName": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API_Application.csproj",
         "projectName": "API_Application",
-        "projectPath": "D:\\Causeway CBDS\\Assignment\\C#\\API_Application\\API_Application.csproj",
-        "packagesPath": "C:\\Users\\purneshp_crm\\.nuget\\packages\\",
-        "outputPath": "D:\\Causeway CBDS\\Assignment\\C#\\API_Application\\obj\\",
+        "projectPath": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API_Application.csproj",
+        "packagesPath": "C:\\Users\\purneshp\\.nuget\\packages\\",
+        "outputPath": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\purneshp_crm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\purneshp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\CausewayCBDS\\Assignment\\C#\\BusinessHubApp\\CommonLogicForBusiness\\CommonLogicForBusiness\\bin\\Release": {},
+          "D:\\CausewayCBDS\\Assignment\\C#\\UserHub\\CommonProjectForUserHub\\CommonProjectForUserHub\\bin\\Release": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +42,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.22, )"
             },
@@ -82,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

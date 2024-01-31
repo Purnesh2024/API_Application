@@ -1,14 +1,16 @@
-using API_Application.Models;
-using Microsoft.EntityFrameworkCore;
+using API_Application.Infrastructure;
+using API_Application.Infrastructure.AddressRepository;
+using API_Application.Infrastructure.Context;
+using API_Application.Infrastructure.UserRepository;
+using API_Application.Infrastructure.UserRepo.UserRepository;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
-builder.Services.AddDbContextPool<APIContext>(options =>
-{
-    options.UseSqlServer(connectionString);
-});
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+builder.Services.AddDbContext<APIContext>();
+builder.Services.AddScoped<IAddressRepository, AddressRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // Add services to the container.
 

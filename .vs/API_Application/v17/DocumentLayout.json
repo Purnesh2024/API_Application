@@ -1,0 +1,788 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\api\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:api\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\deleteaddress\\deleteaddresshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\deleteaddress\\deleteaddresshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\createaddress\\createaddresshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\createaddress\\createaddresshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\queries\\getaddresslist\\getaddresslisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\queries\\getaddresslist\\getaddresslisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\updateaddress\\updateaddresshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\updateaddress\\updateaddresshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\api\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:api\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\queries\\getaddressbyid\\getaddressbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\queries\\getaddressbyid\\getaddressbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\queries\\getemployeelist\\getemployeelisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\queries\\getemployeelist\\getemployeelisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\queries\\getemployeebyid\\getemployeebyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\queries\\getemployeebyid\\getemployeebyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\queries\\getemployeebyid\\getemployeebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\queries\\getemployeebyid\\getemployeebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\updateemployee\\updateemployeehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\updateemployee\\updateemployeehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\deleteemployee\\deleteemployeehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\deleteemployee\\deleteemployeehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\createemployee\\createemployeehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\createemployee\\createemployeehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\api\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:api\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\infrastructure\\addressrepo\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:infrastructure\\addressrepo\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\infrastructure\\employeerepo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:infrastructure\\employeerepo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\identity\\requirepolicyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:identity\\requirepolicyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\infrastructure\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:infrastructure\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\createemployee\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\createemployee\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\infrastructure\\employeerepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:infrastructure\\employeerepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\infrastructure\\addressrepo\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:infrastructure\\addressrepo\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\dtos\\addresswithoutempuuiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\dtos\\addresswithoutempuuiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\createaddress\\createaddressrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\createaddress\\createaddressrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\createaddress\\createaddresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\createaddress\\createaddresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\updateaddress\\updateaddresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\updateaddress\\updateaddresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\createemployee\\createemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\createemployee\\createemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\updateemployee\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\updateemployee\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\queries\\getaddresslist\\getaddresslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\queries\\getaddresslist\\getaddresslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\queries\\getemployeelist\\getemployeelistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\queries\\getemployeelist\\getemployeelistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\deleteaddress\\deleteaddresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\deleteaddress\\deleteaddresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\dtos\\employeewithoutempuuiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\dtos\\employeewithoutempuuiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\queries\\getaddressbyid\\getaddressbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\queries\\getaddressbyid\\getaddressbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\updateemployee\\updateemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\updateemployee\\updateemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\deleteemployee\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\deleteemployee\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\api_application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:api_application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\application\\commands\\updateaddress\\updateaddressrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:application\\commands\\updateaddress\\updateaddressrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|d:\\causewaycbds\\assignment\\newfolder\\api_application\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D7869BA-2A2E-4463-A886-2B7FDF0E2285}|API_Application.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Migrations\\20240206092736_Initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240206092736_Initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Authentication\\ApiKeyAuthFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Authentication\\ApiKeyAuthFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Authentication\\ApiKeyEndpointFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Authentication\\ApiKeyEndpointFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateAddressHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateAddress\\CreateAddressHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\CreateAddress\\CreateAddressHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateAddress\\CreateAddressHandler.cs",
+              "RelativeToolTip": "Application\\Commands\\CreateAddress\\CreateAddressHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T05:52:04.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteAddressHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\DeleteAddress\\DeleteAddressHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\DeleteAddress\\DeleteAddressHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\DeleteAddress\\DeleteAddressHandler.cs",
+              "RelativeToolTip": "Application\\Commands\\DeleteAddress\\DeleteAddressHandler.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T07:26:59.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T12:48:43.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAddressListHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetAddressList\\GetAddressListHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAddressList\\GetAddressListHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetAddressList\\GetAddressListHandler.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAddressList\\GetAddressListHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T07:25:15.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateAddressHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateAddress\\UpdateAddressHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\UpdateAddress\\UpdateAddressHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateAddress\\UpdateAddressHandler.cs",
+              "RelativeToolTip": "Application\\Commands\\UpdateAddress\\UpdateAddressHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwDIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T07:20:45.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddressesController.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API\\AddressesController.cs",
+              "RelativeDocumentMoniker": "API\\AddressesController.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API\\AddressesController.cs",
+              "RelativeToolTip": "API\\AddressesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T04:45:22.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAFEAAAB/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T06:44:41.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAddressByIdHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetAddressById\\GetAddressByIdHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAddressById\\GetAddressByIdHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetAddressById\\GetAddressByIdHandler.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAddressById\\GetAddressByIdHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T08:38:32.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API\\TokenController.cs",
+              "RelativeDocumentMoniker": "API\\TokenController.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API\\TokenController.cs",
+              "RelativeToolTip": "API\\TokenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:55:47.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetEmployeeListHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetEmployeeList\\GetEmployeeListHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetEmployeeList\\GetEmployeeListHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetEmployeeList\\GetEmployeeListHandler.cs",
+              "RelativeToolTip": "Application\\Queries\\GetEmployeeList\\GetEmployeeListHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T12:08:40.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetEmployeeByIdHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetEmployeeById\\GetEmployeeByIdHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetEmployeeById\\GetEmployeeByIdHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetEmployeeById\\GetEmployeeByIdHandler.cs",
+              "RelativeToolTip": "Application\\Queries\\GetEmployeeById\\GetEmployeeByIdHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T05:53:41.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetEmployeeByIdQuery.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetEmployeeById\\GetEmployeeByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetEmployeeById\\GetEmployeeByIdQuery.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetEmployeeById\\GetEmployeeByIdQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetEmployeeById\\GetEmployeeByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T07:22:48.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateEmployeeHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateEmployee\\UpdateEmployeeHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\UpdateEmployee\\UpdateEmployeeHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateEmployee\\UpdateEmployeeHandler.cs",
+              "RelativeToolTip": "Application\\Commands\\UpdateEmployee\\UpdateEmployeeHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T07:22:46.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteEmployeeHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\DeleteEmployee\\DeleteEmployeeHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\DeleteEmployee\\DeleteEmployeeHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\DeleteEmployee\\DeleteEmployeeHandler.cs",
+              "RelativeToolTip": "Application\\Commands\\DeleteEmployee\\DeleteEmployeeHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T07:27:12.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateEmployeeHandler.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateEmployee\\CreateEmployeeHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\CreateEmployee\\CreateEmployeeHandler.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateEmployee\\CreateEmployeeHandler.cs",
+              "RelativeToolTip": "Application\\Commands\\CreateEmployee\\CreateEmployeeHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T05:52:13.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "API\\EmployeesController.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API\\EmployeesController.cs",
+              "RelativeToolTip": "API\\EmployeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T04:45:24.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddressRepository.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\AddressRepo\\AddressRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AddressRepo\\AddressRepository.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\AddressRepo\\AddressRepository.cs",
+              "RelativeToolTip": "Infrastructure\\AddressRepo\\AddressRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T07:09:08.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\EmployeeRepo\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EmployeeRepo\\EmployeeRepository.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\EmployeeRepo\\EmployeeRepository.cs",
+              "RelativeToolTip": "Infrastructure\\EmployeeRepo\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T08:34:34.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RequirePolicyAttribute.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Identity\\RequirePolicyAttribute.cs",
+              "RelativeDocumentMoniker": "Identity\\RequirePolicyAttribute.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Identity\\RequirePolicyAttribute.cs",
+              "RelativeToolTip": "Identity\\RequirePolicyAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T11:45:12.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "APIContext.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\Context\\APIContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context\\APIContext.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\Context\\APIContext.cs",
+              "RelativeToolTip": "Infrastructure\\Context\\APIContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T09:18:23.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-06T09:26:25.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\DTOs\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AddressDTO.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\DTOs\\AddressDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\AddressDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T06:59:19.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\DTOs\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\EmployeeDTO.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\DTOs\\EmployeeDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\EmployeeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T09:20:20.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateEmployeeCommand.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T05:52:12.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\EmployeeRepo\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EmployeeRepo\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\EmployeeRepo\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Infrastructure\\EmployeeRepo\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAEAAADAzMzMzMwNwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T12:08:54.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAddressRepository.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\AddressRepo\\IAddressRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AddressRepo\\IAddressRepository.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Infrastructure\\AddressRepo\\IAddressRepository.cs",
+              "RelativeToolTip": "Infrastructure\\AddressRepo\\IAddressRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T12:05:05.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddressWithoutEmpUuidDTO.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\DTOs\\AddressWithoutEmpUuidDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AddressWithoutEmpUuidDTO.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\DTOs\\AddressWithoutEmpUuidDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\AddressWithoutEmpUuidDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T05:26:26.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateAddressRequest.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateAddress\\CreateAddressRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\CreateAddress\\CreateAddressRequest.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateAddress\\CreateAddressRequest.cs",
+              "RelativeToolTip": "Application\\Commands\\CreateAddress\\CreateAddressRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T05:52:06.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateAddressCommand.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateAddress\\CreateAddressCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\CreateAddress\\CreateAddressCommand.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateAddress\\CreateAddressCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\CreateAddress\\CreateAddressCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-02T06:15:23.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateAddressCommand.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateAddress\\UpdateAddressCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\UpdateAddress\\UpdateAddressCommand.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateAddress\\UpdateAddressCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\UpdateAddress\\UpdateAddressCommand.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T07:20:35.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateEmployeeRequest.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateEmployee\\CreateEmployeeRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\CreateEmployee\\CreateEmployeeRequest.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\CreateEmployee\\CreateEmployeeRequest.cs",
+              "RelativeToolTip": "Application\\Commands\\CreateEmployee\\CreateEmployeeRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T06:09:08.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateEmployeeCommand.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommand.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T07:22:28.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetAddressListQuery.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetAddressList\\GetAddressListQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAddressList\\GetAddressListQuery.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetAddressList\\GetAddressListQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAddressList\\GetAddressListQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T12:04:34.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetEmployeeListQuery.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetEmployeeList\\GetEmployeeListQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetEmployeeList\\GetEmployeeListQuery.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetEmployeeList\\GetEmployeeListQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetEmployeeList\\GetEmployeeListQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T12:07:44.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DeleteAddressCommand.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\DeleteAddress\\DeleteAddressCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\DeleteAddress\\DeleteAddressCommand.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\DeleteAddress\\DeleteAddressCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\DeleteAddress\\DeleteAddressCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T09:06:49.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmployeeWithoutEmpUuidDTO.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\DTOs\\EmployeeWithoutEmpUuidDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\EmployeeWithoutEmpUuidDTO.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\DTOs\\EmployeeWithoutEmpUuidDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\EmployeeWithoutEmpUuidDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T05:43:59.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetAddressByIdQuery.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetAddressById\\GetAddressByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAddressById\\GetAddressByIdQuery.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Queries\\GetAddressById\\GetAddressByIdQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAddressById\\GetAddressByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T07:10:29.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DeleteEmployeeCommand.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommand.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T07:44:54.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdateEmployeeRequest.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateEmployee\\UpdateEmployeeRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\UpdateEmployee\\UpdateEmployeeRequest.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateEmployee\\UpdateEmployeeRequest.cs",
+              "RelativeToolTip": "Application\\Commands\\UpdateEmployee\\UpdateEmployeeRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T07:22:51.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "API_Application.csproj",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API_Application.csproj",
+              "RelativeDocumentMoniker": "API_Application.csproj",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\API_Application.csproj",
+              "RelativeToolTip": "API_Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-16T11:36:53.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ApiKeyAuthFilter.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Authentication\\ApiKeyAuthFilter.cs",
+              "RelativeDocumentMoniker": "Authentication\\ApiKeyAuthFilter.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Authentication\\ApiKeyAuthFilter.cs",
+              "RelativeToolTip": "Authentication\\ApiKeyAuthFilter.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T03:15:31.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ApiKeyEndpointFilter.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Authentication\\ApiKeyEndpointFilter.cs",
+              "RelativeDocumentMoniker": "Authentication\\ApiKeyEndpointFilter.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Authentication\\ApiKeyEndpointFilter.cs",
+              "RelativeToolTip": "Authentication\\ApiKeyEndpointFilter.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T03:15:31.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T07:03:09.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Address.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Models\\Address.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Models\\Address.cs",
+              "RelativeToolTip": "Models\\Address.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T09:10:53.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpdateAddressRequest.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateAddress\\UpdateAddressRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\UpdateAddress\\UpdateAddressRequest.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Application\\Commands\\UpdateAddress\\UpdateAddressRequest.cs",
+              "RelativeToolTip": "Application\\Commands\\UpdateAddress\\UpdateAddressRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T07:01:37.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-02T06:17:29.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240206092736_Initials.cs",
+              "DocumentMoniker": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Migrations\\20240206092736_Initials.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240206092736_Initials.cs",
+              "ToolTip": "D:\\CausewayCBDS\\Assignment\\Newfolder\\API_Application\\Migrations\\20240206092736_Initials.cs",
+              "RelativeToolTip": "Migrations\\20240206092736_Initials.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T09:27:36.881Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,6 @@ using API_Application.Application.Commands.CreateAddress;
 using API_Application.Application.Commands.UpdateAddress;
 using API_Application.Application.Commands.DeleteAddress;
 using API_Application.Application.DTOs;
-using API_Application.Application.Commands.DeleteUser;
 
 namespace API_Application.Controllers
 {
@@ -21,112 +20,67 @@ namespace API_Application.Controllers
         }
 
         [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<UserDTO>))]
-        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
-        public async Task<ActionResult<List<AddressDTO>>> GetAddressListAsync(int limit = 10, int offset = 0)
+        public async Task<ActionResult<List<AddressDTO>>> GetAddressListAsync(int limit = 10, int offset = 0, string search = "Search")
         {
-            try
-            {
-                var addresses = await _mediator.Send(new GetAddressListQuery { Limit = limit, Offset = offset });
-                return Ok(addresses);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(400, ex.Message);
-            }
+            var addresses = await _mediator.Send(new GetAddressListQuery { Limit = limit, Offset = offset, Search = search });
+            return Ok(addresses);
         }
 
-        [HttpGet("{AddressUuid}")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<UserDTO>))]
-        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
+        [HttpGet("{addressUuid}")]
+        [ActionName(nameof(GetAddressByIdAsync))]
         public async Task<ActionResult<AddressDTO>> GetAddressByIdAsync(Guid addressUuid)
         {
-            try
-            {
-                var addresses = await _mediator.Send(new GetAddressByIdQuery() { AddressUuid = addressUuid });
+            var addresses = await _mediator.Send(new GetAddressByIdQuery() { AddressUuid = addressUuid });
 
-                if(addresses == null)
-                {
-                    return NotFound();
-                }
-                return Ok(addresses);
-            }
-            catch (Exception ex)
+            if (addresses == null)
             {
-                return StatusCode(400, ex.Message);
+                return NotFound();
             }
+            return Ok(addresses);
         }
 
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(List<UserDTO>))]
-        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
         public async Task<ActionResult<AddressDTO>> AddAddressAsync(CreateAddressRequest request)
         {
-            try
-            {
-                var address = await _mediator.Send(new CreateAddressCommand(
-                    request.AddressLine1,
-                    request.AddressLine2,
-                    request.Landmark,
-                    request.City,
-                    request.State,
-                    request.Country,
-                    request.UserId));
-                return CreatedAtAction(nameof(GetAddressByIdAsync), new {addressUuid = address.AddressUuid}, address);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(400, ex.Message);
-            }
+            var address = await _mediator.Send(new CreateAddressCommand(
+                request.AddressLine1,
+                request.AddressLine2,
+                request.Landmark,
+                request.City,
+                request.State,
+                request.Country,
+                request.EmpUuid));
+            return CreatedAtAction(nameof(GetAddressByIdAsync), new { addressUuid = address.AddressUuid }, address);
         }
 
         [HttpPut("{AddressUuid}")]
-        [ProducesResponseType(StatusCodes.Status202Accepted, Type = typeof(List<UserDTO>))]
-        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
         public async Task<ActionResult<AddressDTO>> UpdateAddressAsync(UpdateAddressRequest request)
         {
-            try
-            {
-                var isAddressUpdated = await _mediator.Send(new UpdateAddressCommand(
-                    request.AddressLine1,
-                    request.AddressLine2,
-                    request.Landmark,
-                    request.City,
-                    request.State,
-                    request.Country,
-                    request.UserId));
+            var isAddressUpdated = await _mediator.Send(new UpdateAddressCommand(
+                request.AddressLine1,
+                request.AddressLine2,
+                request.Landmark,
+                request.City,
+                request.State,
+                request.Country));
 
-                if (isAddressUpdated == null)
-                {
-                    return NotFound(); // 404 Not Found
-                }
-                return Accepted(isAddressUpdated);
-            }
-            catch (Exception ex)
+            if (isAddressUpdated == null)
             {
-                return StatusCode(400, ex.Message);
+                return NotFound(); // 404 Not Found
             }
+            return Accepted(isAddressUpdated);
         }
 
         [HttpDelete("{AddressUuid}")]
-        [ProducesResponseType(StatusCodes.Status204NoContent, Type = typeof(List<UserDTO>))]
-        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
         public async Task<ActionResult<AddressDTO>> DeleteAddressAsync(Guid addressUuid)
         {
-            try
-            {
-                var deletedAddress = await _mediator.Send(new DeleteAddressCommand() { AddressUuid = addressUuid });
+            var deletedAddress = await _mediator.Send(new DeleteAddressCommand() { AddressUuid = addressUuid });
 
-                if (deletedAddress == null)
-                {
-                    return NotFound(); // 404 Not Found
-                }
-                return NoContent(); // 204 No Content
-            }
-            catch (Exception ex)
+            if (deletedAddress == null)
             {
-                return StatusCode(400, ex.Message); // 400 Bad Request
+                return NotFound(); // 404 Not Found
             }
+            return NoContent(); // 204 No Content            
         }
     }
 }

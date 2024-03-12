@@ -12,9 +12,8 @@ namespace API_Application.Application.Commands.UpdateAddress
         public string? City { get; set; }
         public string? State { get; set; }
         public string? Country { get; set; }
-        public int UserId { get; set; }
 
-        public UpdateAddressCommand(string? addressLine1, string? addressLine2, string? landmark, string? city, string? state, string? country, int userId)
+        public UpdateAddressCommand(string? addressLine1, string? addressLine2, string? landmark, string? city, string? state, string? country)
         {
             AddressLine1 = addressLine1;
             AddressLine2 = addressLine2;
@@ -22,7 +21,6 @@ namespace API_Application.Application.Commands.UpdateAddress
             City = city;
             State = state;
             Country = country;
-            UserId = userId;
         }
     }
 }

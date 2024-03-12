@@ -12,8 +12,8 @@ namespace API_Application.Models
         public string? City { get; set; }
         public string? State { get; set; }
         public string? Country { get; set; }
-        public int UserId { get; set; }
-        [ForeignKey("UserId")]
-        public User? User { get; set; }
+        public Guid EmpUuid { get; set; }
+        [ForeignKey("EmpUuid")]
+        public Employee? Employee { get; set; }
     }
 }

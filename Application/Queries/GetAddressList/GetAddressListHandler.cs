@@ -1,35 +1,41 @@
 ﻿using API_Application.Application.DTOs;
-using API_Application.Infrastructure;
+using API_Application.Infrastructure.AddressRepository;
+using AutoMapper;
 using MediatR;
+using API_Application.Middleware;
 
 namespace API_Application.Application.Queries.GetAddressList
 {
-    public class GetAddressListHandler : IRequestHandler<GetAddressListQuery, List<AddressDTO>>
+    public class GetAddressListHandler : IRequestHandler<GetAddressListQuery, List<AddressWithoutEmpUuidDTO>>
     {
         private readonly IAddressRepository _addressRepository;
-        public GetAddressListHandler(IAddressRepository addressRepository)
+        private readonly IMapper _mapper;
+        private readonly ILogger<GetAddressListHandler> _logger;
+
+        public GetAddressListHandler(IAddressRepository addressRepository, IMapper mapper, ILogger<GetAddressListHandler> logger)
         {
             _addressRepository = addressRepository;
-        }
-        public async Task<List<AddressDTO>> Handle(GetAddressListQuery query, CancellationToken cancellationToken)
-        {
-            // Fetch users based on Limit and Offset
-            var addresses = await _addressRepository.GetAddressListAsync(query.Limit, query.Offset);
-            return addresses.Select(address => MapToAddressDTO(address)).ToList();
+            _mapper = mapper;
+            _logger = logger;
         }
 
-        public AddressDTO MapToAddressDTO(AddressDTO address)
+        public async Task<List<AddressWithoutEmpUuidDTO>> Handle(GetAddressListQuery query, CancellationToken cancellationToken)
         {
-            return new AddressDTO
+            try
             {
-                AddressLine1 = address.AddressLine1,
-                AddressLine2 = address.AddressLine2,
-                Landmark = address.Landmark,
-                City = address.City,
-                State = address.State,
-                Country = address.Country,
-                UserId = address.UserId
-            };
+                var addresses = await _addressRepository.GetAddressListAsync(query.Limit, query.Offset, query.Search);
+                return _mapper.Map<List<AddressWithoutEmpUuidDTO>>(addresses);
+            }
+            catch (NoContentException ex)
+            {
+                _logger.LogWarning(ex, "Address list is empty.");
+                throw new NotFoundException("Address list is empty !!!");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while handling the GetAddressListQuery.");
+                throw;
+            }
         }
     }
 }

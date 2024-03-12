@@ -147,14 +147,15 @@ D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\API_Applic
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\API_Application.runtimeconfig.json
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\API_Application.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\API_Application.pdb
+D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\AutoMapper.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Humanizer.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\MediatR.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
@@ -205,9 +206,9 @@ D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\staticweba
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API_Application.props
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\staticwebassets.pack.json
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\scopedcss\bundle\API_Application.styles.css
-D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\API_Application.csproj.CopyComplete
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\API_Application.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\refint\API_Application.dll
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\API_Application.pdb
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\API_Application.genruntimeconfig.cache
 D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\ref\API_Application.dll
+D:\CausewayCBDS\Assignment\Newfolder\API_Application\obj\Debug\net6.0\API_Appl.3B8DF80C.Up2Date

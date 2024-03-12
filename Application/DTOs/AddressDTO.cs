@@ -9,6 +9,6 @@
         public string? City { get; set; }
         public string? State { get; set; }
         public string? Country { get; set; }
-        public int UserId { get; set; }
+        public Guid EmpUuid { get; internal set; }
     }
 }
